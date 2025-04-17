@@ -45,6 +45,7 @@ pip package manager
 
 Clone the repository:
 https://github.com/anurag1942003/Log-Analyzer.git
+
 cd log-analyzer
 
 Install Python dependencies:
