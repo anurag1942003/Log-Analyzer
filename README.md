@@ -44,7 +44,7 @@ pip package manager
 ### 📥 Installation (Local)
 
 Clone the repository:
-[git clone https://github.com/your-username/log-analyzer.git](https://github.com/anurag1942003/Log-Analyzer.git)
+https://github.com/anurag1942003/Log-Analyzer.git
 cd log-analyzer
 
 Install Python dependencies:
