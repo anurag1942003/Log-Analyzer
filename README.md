@@ -48,9 +48,6 @@ https://github.com/anurag1942003/Log-Analyzer.git
 
 cd log-analyzer
 
-Install Python dependencies:
-pip install -r requirements.txt
-
 Build the Docker image:
 docker build -t log-analyzer .
 
