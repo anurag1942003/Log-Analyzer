@@ -11,24 +11,34 @@ Containerization: Dockerized for consistent deployment.
 ### ⭐ Features
 
 File Upload: Easily upload .log files via drag-and-drop or file chooser.
+
 Log Parsing: Extracts timestamp, level, and message with regex:
 (?P<timestamp>\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}[,.]\d+) \[(?P<level>\w+)\] (?P<message>.*)
+
 Text Display: Readable listing of parsed log entries.
+
 Metrics & Charts: Interactive bar chart of log level counts using Chart.js.
+
 Persistent Storage: Saves parsed data as timestamped JSON in /data.
+
 Docker Support: Run with a single docker run command.
 
 ### 🛠️ Tech Stack
 
 Frontend: HTML, CSS, JavaScript, Chart.js
+
 Backend: Python 3.9+, Flask
+
 Storage: JSON files
+
 Containerization: Docker
 
 ### 🚀 Prerequisites
 
 Python 3.9+
+
 Docker (optional but recommended)
+
 pip package manager
 
 ### 📥 Installation (Local)
