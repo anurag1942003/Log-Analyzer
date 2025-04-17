@@ -1,6 +1,6 @@
-**A simple web application for uploading, parsing, and visualizing server log files.**
+# A simple web application for uploading, parsing, and visualizing server log files.
 
-📋 Overview
+### 📋 Overview
 
 The Log Analyzer allows users to upload .log files, parses out key information such as timestamps, log levels, and messages, and presents both a textual display and interactive bar charts of log level counts. It includes:
 Frontend: HTML/CSS/JavaScript interface featuring a file upload form and Chart.js visualizations.
@@ -8,7 +8,7 @@ Backend: Python Flask server to handle uploads, parse logs with regular expressi
 Persistence: JSON-based storage of parsed logs for later retrieval.
 Containerization: Dockerized for consistent deployment.
 
-⭐ Features
+### ⭐ Features
 
 File Upload: Easily upload .log files via drag-and-drop or file chooser.
 Log Parsing: Extracts timestamp, level, and message with regex:
@@ -18,20 +18,20 @@ Metrics & Charts: Interactive bar chart of log level counts using Chart.js.
 Persistent Storage: Saves parsed data as timestamped JSON in /data.
 Docker Support: Run with a single docker run command.
 
-🛠️ Tech Stack
+### 🛠️ Tech Stack
 
 Frontend: HTML, CSS, JavaScript, Chart.js
 Backend: Python 3.9+, Flask
 Storage: JSON files
 Containerization: Docker
 
-🚀 Prerequisites
+### 🚀 Prerequisites
 
 Python 3.9+
 Docker (optional but recommended)
 pip package manager
 
-📥 Installation (Local)
+### 📥 Installation (Local)
 
 Clone the repository:
 git clone https://github.com/your-username/log-analyzer.git
